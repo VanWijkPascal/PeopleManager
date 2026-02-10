@@ -2,13 +2,11 @@
 
 namespace PeopleManager.Ui.Mvc.Controllers
 {
-    public class PeopleController :Controller
+    public class PeopleController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
     }
-}
-    
 }
